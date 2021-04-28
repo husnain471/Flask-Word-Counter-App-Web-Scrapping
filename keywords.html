@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Keywords</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+      <center>
+        <h1>Keywords are following</h1>
+        <hr>
+        {% for r in result %}
+        <h4>{{ r }}</h4>
+        {% endfor %}
+        
+        <hr>
+      </center>  
+  </body>
+</html

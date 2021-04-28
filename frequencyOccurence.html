@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frequency Occurring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+       <center>
+          <h2>Frequency of Occurrence Of Words<h2>
+       </center>
+       <br>
+      {% for error in errors %}
+        <h4>{{ error }}</h4>
+      {% endfor %}
+       <center> 
+       {% for orderOfFreque in orderOfFrequency %}
+        <h4>{{ orderOfFreque }}</h4>
+       {% endfor %}
+      </center>
+  </body>
+</html

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Counter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+      .container {
+        max-width: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+  <center>
+    <h1>Requirement 1</h1>
+    <div class="container">
+      <h5>Enter the URL</h5>
+      <form role="form" method='POST' action='/'>
+        <div class="form-group">
+          <input type="text" name="url" class="form-control" id="url-box" placeholder="Enter URL..." style="max-width: 300px;" autofocus required>
+        </div>
+        <button type="submit" name="frequencyCalculate" value="frequencyCalculate" class="btn btn-default">Calculate Frequecny</button>
+        <button type="submit" name="keywordCalculate"  value= "keywordCalculate" class="btn btn-default">Calculate Keywords</button>
+      </form>
+      <br>
+
+
+  <h1>Requirement 2</h1>
+    <div class="container">
+      <h5>Enter the URL</h5>
+      <form role="form" method='POST' action='/'>
+        <div class="form-group">
+          <input type="text" name="urlR1" class="form-control" id="url-box" placeholder="Enter URL 1" style="max-width: 300px;" autofocus required>
+          <br>
+          <input type="text" name="urlR2" class="form-control" id="url-box" placeholder="Enter URL 2" style="max-width: 300px;" autofocus required>
+        </div>
+        <button type="submit" name="similarityCalculator"  value= "similarityCalculator" class="btn btn-default">Calculate Similarity</button>
+      </form>
+      <br>
+  
+  
+    <h1>Requirement 3</h1>
+      <div class="container">
+        <h5>Enter the URL</h5>
+        <form role="form" method='POST' action='/'>
+          <div class="form-group">
+            <input type="text" name="urlR1" class="form-control" id="url-box" placeholder="Enter URL " style="max-width: 300px;" autofocus required>
+            <br>
+          </div>
+          <button type="submit" name = "getcontent" value = "getcontent" class="btn btn-default">Display URL content</button>
+        </form>
+        <br>
+  
+
+
+
+
+    </center>
+    <script src="//code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+</html>
